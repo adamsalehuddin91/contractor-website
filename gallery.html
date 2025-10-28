@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Projek - Binaan Teguh Sdn Bhd</title>
+    <meta name="description" content="Portfolio projek binaan dan renovasi rumah oleh Binaan Teguh. Lihat hasil kerja kontraktor berpengalaman kami.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-sans text-gray-800">
+
+    <!-- Navigation (same as index.html) -->
+    <nav class="bg-white shadow-md fixed w-full top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-hard-hat text-white text-2xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold text-gray-900">Binaan Teguh</h1>
+                        <p class="text-xs text-gray-600">Kontraktor Berpengalaman</p>
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-orange-600 transition">Utama</a>
+                    <a href="about.html" class="text-gray-700 hover:text-orange-600 transition">Tentang Kami</a>
+                    <a href="services.html" class="text-gray-700 hover:text-orange-600 transition">Perkhidmatan</a>
+                    <a href="gallery.html" class="text-orange-600 font-semibold hover:text-orange-700 transition">Galeri Projek</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-orange-600 transition">Hubungi</a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 space-y-3">
+                <a href="index.html" class="block text-gray-700">Utama</a>
+                <a href="about.html" class="block text-gray-700 hover:text-orange-600">Tentang Kami</a>
+                <a href="services.html" class="block text-gray-700 hover:text-orange-600">Perkhidmatan</a>
+                <a href="gallery.html" class="block text-orange-600 font-semibold">Galeri Projek</a>
+                <a href="contact.html" class="block text-gray-700 hover:text-orange-600">Hubungi</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-blue-900 to-blue-800 text-white pt-32 pb-16 mt-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Portfolio Projek Kami</h1>
+            <p class="text-xl text-blue-100 max-w-3xl mx-auto">
+                Lihat hasil kerja berkualiti tinggi yang telah kami sediakan untuk ratusan pelanggan di seluruh Malaysia
+            </p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="py-8 bg-white border-b sticky top-20 z-40">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center gap-3">
+                <button data-filter="all" class="bg-orange-500 text-white px-6 py-2 rounded-full font-semibold hover:bg-orange-600 transition">
+                    Semua (<span id="project-count">9</span>)
+                </button>
+                <button data-filter="Bina Rumah Baru" class="bg-white text-gray-700 px-6 py-2 rounded-full font-semibold hover:bg-orange-500 hover:text-white transition border border-gray-300">
+                    Bina Rumah Baru
+                </button>
+                <button data-filter="Renovasi & Ubahsuai" class="bg-white text-gray-700 px-6 py-2 rounded-full font-semibold hover:bg-orange-500 hover:text-white transition border border-gray-300">
+                    Renovasi & Ubahsuai
+                </button>
+                <button data-filter="Bangunan Komersial" class="bg-white text-gray-700 px-6 py-2 rounded-full font-semibold hover:bg-orange-500 hover:text-white transition border border-gray-300">
+                    Bangunan Komersial
+                </button>
+                <button data-filter="Infrastruktur & Civil" class="bg-white text-gray-700 px-6 py-2 rounded-full font-semibold hover:bg-orange-500 hover:text-white transition border border-gray-300">
+                    Infrastruktur
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="py-16 bg-gradient-to-br from-gray-50 to-blue-50">
+        <div class="container mx-auto px-4">
+            <div id="gallery-container" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Projects will be loaded here by JavaScript -->
+                <div class="col-span-full text-center py-12">
+                    <div class="spinner mx-auto"></div>
+                    <p class="text-gray-600 mt-4">Memuatkan portfolio...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-gradient-to-r from-orange-500 to-orange-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                Ingin Projek Anda Seperti Ini?
+            </h2>
+            <p class="text-xl mb-8 text-orange-100 max-w-2xl mx-auto">
+                Hubungi kami hari ini untuk dapatkan sebut harga PERCUMA
+            </p>
+            <a href="contact.html" class="inline-block bg-white hover:bg-gray-100 text-orange-600 px-8 py-4 rounded-lg font-semibold text-lg transition transform hover:scale-105 shadow-xl">
+                <i class="fas fa-paper-plane mr-2"></i> Mula Projek Anda
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-hard-hat text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Binaan Teguh</h3>
+                    </div>
+                    <p class="text-sm leading-relaxed">
+                        Kontraktor bina rumah dan renovasi berpengalaman di Malaysia sejak 2009. Berdaftar SSM & CIDB.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Pautan Pantas</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="index.html" class="hover:text-orange-500 transition">Utama</a></li>
+                        <li><a href="about.html" class="hover:text-orange-500 transition">Tentang Kami</a></li>
+                        <li><a href="services.html" class="hover:text-orange-500 transition">Perkhidmatan</a></li>
+                        <li><a href="gallery.html" class="hover:text-orange-500 transition">Galeri Projek</a></li>
+                        <li><a href="contact.html" class="hover:text-orange-500 transition">Hubungi</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Perkhidmatan</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="services.html" class="hover:text-orange-500 transition">Bina Rumah Baru</a></li>
+                        <li><a href="services.html" class="hover:text-orange-500 transition">Renovasi & Ubahsuai</a></li>
+                        <li><a href="services.html" class="hover:text-orange-500 transition">Bangunan Komersial</a></li>
+                        <li><a href="services.html" class="hover:text-orange-500 transition">Infrastruktur & Civil</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Hubungi Kami</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-orange-500 mt-1 mr-3"></i>
+                            <span>No. 123, Jalan Industri 2, Taman Perindustrian, 43000 Kajang, Selangor</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone text-orange-500 mr-3"></i>
+                            <span>012-345 6789</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope text-orange-500 mr-3"></i>
+                            <span>info@binaanteguh.com</span>
+                        </li>
+                    </ul>
+                    <div class="flex space-x-4 mt-6">
+                        <a href="#" class="w-10 h-10 bg-gray-800 hover:bg-orange-500 rounded-full flex items-center justify-center transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 hover:bg-orange-500 rounded-full flex items-center justify-center transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 hover:bg-orange-500 rounded-full flex items-center justify-center transition">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-sm">
+                <p>&copy; 2024 Binaan Teguh Sdn Bhd. Hak Cipta Terpelihara. | SSM: 1234567-X | CIDB: G7</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/60123456789?text=Saya%20berminat%20dengan%20perkhidmatan%20Binaan%20Teguh"
+       class="whatsapp-float"
+       target="_blank"
+       aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

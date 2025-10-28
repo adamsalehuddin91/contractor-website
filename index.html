@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binaan Teguh Sdn Bhd - Kontraktor Binaan & Renovasi Rumah</title>
+    <meta name="description" content="Kontraktor bina rumah dan renovasi berpengalaman di Malaysia. Berdaftar SSM & CIDB. Pembiayaan LPPSA, KWSP tersedia.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-sans text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-hard-hat text-white text-2xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold text-gray-900">Binaan Teguh</h1>
+                        <p class="text-xs text-gray-600">Kontraktor Berpengalaman</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-orange-600 font-semibold hover:text-orange-700 transition">Utama</a>
+                    <a href="about.html" class="text-gray-700 hover:text-orange-600 transition">Tentang Kami</a>
+                    <a href="services.html" class="text-gray-700 hover:text-orange-600 transition">Perkhidmatan</a>
+                    <a href="gallery.html" class="text-gray-700 hover:text-orange-600 transition">Galeri Projek</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-orange-600 transition">Hubungi</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 space-y-3">
+                <a href="index.html" class="block text-orange-600 font-semibold">Utama</a>
+                <a href="about.html" class="block text-gray-700 hover:text-orange-600">Tentang Kami</a>
+                <a href="services.html" class="block text-gray-700 hover:text-orange-600">Perkhidmatan</a>
+                <a href="gallery.html" class="block text-gray-700 hover:text-orange-600">Galeri Projek</a>
+                <a href="contact.html" class="block text-gray-700 hover:text-orange-600">Hubungi</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-blue-900 to-blue-800 text-white pt-32 pb-20 mt-16">
+        <div class="absolute inset-0 bg-black opacity-30"></div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                    Kontraktor Bina & Renovate Rumah Impian Anda
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 text-blue-100">
+                    Berpengalaman 15+ Tahun | Berdaftar CIDB & SSM | Pembiayaan Tersedia
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="contact.html" class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition transform hover:scale-105 shadow-xl">
+                        <i class="fas fa-phone-alt mr-2"></i> Dapatkan Sebut Harga PERCUMA
+                    </a>
+                    <a href="gallery.html" class="bg-white hover:bg-gray-100 text-blue-900 px-8 py-4 rounded-lg font-semibold text-lg transition transform hover:scale-105 shadow-xl">
+                        <i class="fas fa-images mr-2"></i> Lihat Portfolio
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Decorative Wave -->
+        <div class="absolute bottom-0 left-0 right-0">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 46.7C1200 53 1320 67 1380 73.3L1440 80V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z" fill="white"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <!-- Stat 1 -->
+                <div class="text-center">
+                    <div class="text-5xl font-bold text-orange-500 mb-2">
+                        <span class="counter" data-target="150">0</span>+
+                    </div>
+                    <p class="text-gray-700 font-semibold">Projek Siap</p>
+                    <p class="text-sm text-gray-500">Rumah & Bangunan</p>
+                </div>
+
+                <!-- Stat 2 -->
+                <div class="text-center">
+                    <div class="text-5xl font-bold text-orange-500 mb-2">
+                        <span class="counter" data-target="15">0</span>+
+                    </div>
+                    <p class="text-gray-700 font-semibold">Tahun Pengalaman</p>
+                    <p class="text-sm text-gray-500">Industri Binaan</p>
+                </div>
+
+                <!-- Stat 3 -->
+                <div class="text-center">
+                    <div class="text-5xl font-bold text-orange-500 mb-2">
+                        <span class="counter" data-target="98">0</span>%
+                    </div>
+                    <p class="text-gray-700 font-semibold">Kepuasan Pelanggan</p>
+                    <p class="text-sm text-gray-500">Rating Cemerlang</p>
+                </div>
+
+                <!-- Stat 4 -->
+                <div class="text-center">
+                    <div class="text-5xl font-bold text-orange-500 mb-2">
+                        <span class="counter" data-target="50">0</span>+
+                    </div>
+                    <p class="text-gray-700 font-semibold">Pekerja Mahir</p>
+                    <p class="text-sm text-gray-500">Berpengalaman</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Kenapa Pilih Binaan Teguh?</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Kami komited untuk menjadikan impian rumah anda menjadi kenyataan dengan kualiti terbaik dan harga berpatutan
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-certificate text-orange-500 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Berdaftar & Berlesen</h3>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        Berdaftar dengan SSM dan CIDB. Sijil ISO 9001:2015 untuk jaminan kualiti kerja cemerlang.
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-hand-holding-usd text-orange-500 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Pembiayaan Mudah</h3>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        Kami membantu urusan pembiayaan melalui LPPSA, KWSP, KMMB dan bank-bank utama di Malaysia.
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-headset text-orange-500 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Perkhidmatan PERCUMA</h3>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        Pelan rumah, sebut harga, konsultasi, dan site visit PERCUMA. Tiada caj tersembunyi!
+                    </p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-shield-alt text-orange-500 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Jaminan Kualiti</h3>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        Waranti struktur 2 tahun dan waranti kecacatan 6 bulan untuk ketenangan minda anda.
+                    </p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-users text-orange-500 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Pasukan Berpengalaman</h3>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        50+ pekerja mahir dengan pengalaman lebih 10 tahun. Jurutera dan arkitek profesional.
+                    </p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-clock text-orange-500 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Siap Tepat Masa</h3>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        Komitmen kami untuk siapkan projek mengikut jadual yang dipersetujui tanpa kelewatan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Perkhidmatan Kami</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Daripada binaan baru hingga renovasi, kami sediakan penyelesaian lengkap untuk keperluan pembinaan anda
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Service 1 -->
+                <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <div class="h-64 bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center">
+                        <i class="fas fa-home text-white text-6xl group-hover:scale-110 transition"></i>
+                    </div>
+                    <div class="p-6 bg-white">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Bina Rumah Baru</h3>
+                        <p class="text-gray-600 mb-4">Rumah impian dari A-Z dengan design custom mengikut citarasa anda</p>
+                        <a href="services.html" class="text-orange-500 font-semibold hover:text-orange-600 inline-flex items-center">
+                            Ketahui Lanjut <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <div class="h-64 bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center">
+                        <i class="fas fa-tools text-white text-6xl group-hover:scale-110 transition"></i>
+                    </div>
+                    <div class="p-6 bg-white">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Renovasi & Ubahsuai</h3>
+                        <p class="text-gray-600 mb-4">Ubah rumah lama menjadi seperti baru dengan sentuhan moden</p>
+                        <a href="services.html" class="text-orange-500 font-semibold hover:text-orange-600 inline-flex items-center">
+                            Ketahui Lanjut <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <div class="h-64 bg-gradient-to-br from-green-500 to-green-700 flex items-center justify-center">
+                        <i class="fas fa-building text-white text-6xl group-hover:scale-110 transition"></i>
+                    </div>
+                    <div class="p-6 bg-white">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Bangunan Komersial</h3>
+                        <p class="text-gray-600 mb-4">Kedai, pejabat, gudang dengan standard komersial antarabangsa</p>
+                        <a href="services.html" class="text-orange-500 font-semibold hover:text-orange-600 inline-flex items-center">
+                            Ketahui Lanjut <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <div class="h-64 bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center">
+                        <i class="fas fa-road text-white text-6xl group-hover:scale-110 transition"></i>
+                    </div>
+                    <div class="p-6 bg-white">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Infrastruktur & Civil</h3>
+                        <p class="text-gray-600 mb-4">Kerja jalan, longkang, paip dan infrastruktur awam</p>
+                        <a href="services.html" class="text-orange-500 font-semibold hover:text-orange-600 inline-flex items-center">
+                            Ketahui Lanjut <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Preview -->
+    <section class="py-20 bg-gradient-to-br from-gray-900 to-blue-900 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Portfolio Projek Kami</h2>
+                <p class="text-xl text-blue-100 max-w-2xl mx-auto">
+                    Lihat hasil kerja kami yang telah mengubah impian ratusan keluarga menjadi kenyataan
+                </p>
+            </div>
+
+            <div id="portfolio-preview" class="grid md:grid-cols-3 gap-6 mb-12">
+                <!-- Will be loaded from projects.json -->
+            </div>
+
+            <div class="text-center">
+                <a href="gallery.html" class="inline-block bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition transform hover:scale-105 shadow-xl">
+                    <i class="fas fa-images mr-2"></i> Lihat Semua Projek
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-orange-500 to-orange-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                Mulakan Projek Rumah Impian Anda Hari Ini!
+            </h2>
+            <p class="text-xl md:text-2xl mb-8 text-orange-100 max-w-3xl mx-auto">
+                Hubungi kami sekarang untuk dapatkan pelan PERCUMA, sebut harga PERCUMA, dan konsultasi PERCUMA dari pasukan kami
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact.html" class="bg-white hover:bg-gray-100 text-orange-600 px-8 py-4 rounded-lg font-semibold text-lg transition transform hover:scale-105 shadow-xl">
+                    <i class="fas fa-envelope mr-2"></i> Hubungi Kami
+                </a>
+                <a href="tel:+60123456789" class="bg-blue-900 hover:bg-blue-800 text-white px-8 py-4 rounded-lg font-semibold text-lg transition transform hover:scale-105 shadow-xl">
+                    <i class="fab fa-whatsapp mr-2"></i> WhatsApp: 012-345 6789
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-hard-hat text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Binaan Teguh</h3>
+                    </div>
+                    <p class="text-sm leading-relaxed">
+                        Kontraktor bina rumah dan renovasi berpengalaman di Malaysia sejak 2009. Berdaftar SSM & CIDB.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Pautan Pantas</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="index.html" class="hover:text-orange-500 transition">Utama</a></li>
+                        <li><a href="about.html" class="hover:text-orange-500 transition">Tentang Kami</a></li>
+                        <li><a href="services.html" class="hover:text-orange-500 transition">Perkhidmatan</a></li>
+                        <li><a href="gallery.html" class="hover:text-orange-500 transition">Galeri Projek</a></li>
+                        <li><a href="contact.html" class="hover:text-orange-500 transition">Hubungi</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Perkhidmatan</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="services.html" class="hover:text-orange-500 transition">Bina Rumah Baru</a></li>
+                        <li><a href="services.html" class="hover:text-orange-500 transition">Renovasi & Ubahsuai</a></li>
+                        <li><a href="services.html" class="hover:text-orange-500 transition">Bangunan Komersial</a></li>
+                        <li><a href="services.html" class="hover:text-orange-500 transition">Infrastruktur & Civil</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Hubungi Kami</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-orange-500 mt-1 mr-3"></i>
+                            <span>No. 123, Jalan Industri 2, Taman Perindustrian, 43000 Kajang, Selangor</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone text-orange-500 mr-3"></i>
+                            <span>012-345 6789</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope text-orange-500 mr-3"></i>
+                            <span>info@binaanteguh.com</span>
+                        </li>
+                    </ul>
+                    <div class="flex space-x-4 mt-6">
+                        <a href="#" class="w-10 h-10 bg-gray-800 hover:bg-orange-500 rounded-full flex items-center justify-center transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 hover:bg-orange-500 rounded-full flex items-center justify-center transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 hover:bg-orange-500 rounded-full flex items-center justify-center transition">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 text-center text-sm">
+                <p>&copy; 2024 Binaan Teguh Sdn Bhd. Hak Cipta Terpelihara. | SSM: 1234567-X | CIDB: G7</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

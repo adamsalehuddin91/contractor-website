@@ -1,0 +1,157 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Rumah Banglo Mewah 2 Tingkat - Cyberjaya",
+      "category": "Bina Rumah Baru",
+      "location": "Cyberjaya, Selangor",
+      "year": "2023",
+      "description": "Rumah banglo mewah 2 tingkat dengan 5 bilik tidur, swimming pool dan landscape cantik. Luas: 4,500 kaki persegi.",
+      "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800",
+      "features": [
+        "5 bilik tidur, 4 bilik air",
+        "Swimming pool & landscape",
+        "Smart home system",
+        "Double storey carpark"
+      ],
+      "budget": "RM 850,000",
+      "duration": "12 bulan"
+    },
+    {
+      "id": 2,
+      "title": "Renovasi Rumah Teres - Shah Alam",
+      "category": "Renovasi & Ubahsuai",
+      "location": "Shah Alam, Selangor",
+      "year": "2023",
+      "description": "Renovasi penuh rumah teres 2 tingkat termasuk extension dapur, bathroom upgrade dan cat baru.",
+      "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800",
+      "features": [
+        "Extension dapur & ruang makan",
+        "Upgrade 3 bilik air",
+        "Repaint seluruh rumah",
+        "Flooring tiles & laminate"
+      ],
+      "budget": "RM 120,000",
+      "duration": "3 bulan"
+    },
+    {
+      "id": 3,
+      "title": "Kedai Pejabat 3 Tingkat - Bangi",
+      "category": "Bangunan Komersial",
+      "location": "Bangi, Selangor",
+      "year": "2022",
+      "description": "Bangunan kedai pejabat 3 tingkat untuk kegunaan komersial dengan parking basement.",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800",
+      "features": [
+        "3 tingkat + basement parking",
+        "Lif penumpang & barang",
+        "Central air-conditioning",
+        "Security system CCTV"
+      ],
+      "budget": "RM 1,200,000",
+      "duration": "18 bulan"
+    },
+    {
+      "id": 4,
+      "title": "Rumah Kampung Moden - Nilai",
+      "category": "Bina Rumah Baru",
+      "location": "Nilai, Negeri Sembilan",
+      "year": "2023",
+      "description": "Rumah kampung konsep moden dengan design terkini tapi mengekalkan sentuhan tradisional.",
+      "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800",
+      "features": [
+        "4 bilik tidur, 3 bilik air",
+        "Konsep kampung moden",
+        "Taman depan & belakang",
+        "Carport 2 kereta"
+      ],
+      "budget": "RM 420,000",
+      "duration": "8 bulan"
+    },
+    {
+      "id": 5,
+      "title": "Extension & Renovasi - Putrajaya",
+      "category": "Renovasi & Ubahsuai",
+      "location": "Putrajaya",
+      "year": "2022",
+      "description": "Kerja extension bilik tambahan dan renovasi dapur untuk rumah teres 1 tingkat.",
+      "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800",
+      "features": [
+        "Extension 2 bilik tidur",
+        "Renovasi dapur wet & dry",
+        "Tambah 1 bilik air",
+        "Wiring & plumbing baru"
+      ],
+      "budget": "RM 95,000",
+      "duration": "2.5 bulan"
+    },
+    {
+      "id": 6,
+      "title": "Pembinaan Jalan & Longkang - Semenyih",
+      "category": "Infrastruktur & Civil",
+      "location": "Semenyih, Selangor",
+      "year": "2023",
+      "description": "Projek pembinaan jalan tar dan sistem perparitan untuk kawasan perumahan baru.",
+      "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800",
+      "features": [
+        "Jalan tar 2 lorong (800m)",
+        "Sistem longkang concrete",
+        "Street lighting system",
+        "Landscaping tepi jalan"
+      ],
+      "budget": "RM 680,000",
+      "duration": "6 bulan"
+    },
+    {
+      "id": 7,
+      "title": "Rumah Semi-D Mewah - Kajang",
+      "category": "Bina Rumah Baru",
+      "location": "Kajang, Selangor",
+      "year": "2022",
+      "description": "Rumah semi-detached 2 tingkat dengan design moden minimalis dan full smart home.",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
+      "features": [
+        "5 bilik tidur + study room",
+        "Full smart home automation",
+        "Modern minimalist design",
+        "Premium kitchen cabinet"
+      ],
+      "budget": "RM 720,000",
+      "duration": "10 bulan"
+    },
+    {
+      "id": 8,
+      "title": "Gudang Perindustrian - Nilai",
+      "category": "Bangunan Komersial",
+      "location": "Nilai, Negeri Sembilan",
+      "year": "2023",
+      "description": "Gudang perindustrian bersaiz besar dengan office space dan loading bay.",
+      "image": "https://images.unsplash.com/photo-1565610222536-ef4cf7d6d7cc?w=800",
+      "features": [
+        "Luas: 15,000 kaki persegi",
+        "Loading bay 3 unit",
+        "2-storey office space",
+        "High ceiling (25 feet)"
+      ],
+      "budget": "RM 950,000",
+      "duration": "12 bulan"
+    },
+    {
+      "id": 9,
+      "title": "Renovasi Apartment - Cheras",
+      "category": "Renovasi & Ubahsuai",
+      "location": "Cheras, Kuala Lumpur",
+      "year": "2023",
+      "description": "Renovasi penuh apartment 3 bilik untuk disewa, termasuk kabinet custom dan aircond.",
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
+      "features": [
+        "Full kabinet dapur custom",
+        "Wiring & plumbing baru",
+        "3 unit air-conditioner",
+        "Flooring & painting"
+      ],
+      "budget": "RM 45,000",
+      "duration": "1.5 bulan"
+    }
+  ]
+}

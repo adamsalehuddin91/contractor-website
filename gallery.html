@@ -183,6 +183,99 @@
         <i class="fab fa-whatsapp"></i>
     </a>
 
+    <!-- Project Modal with Image Slider -->
+    <div id="project-modal" class="hidden fixed inset-0 z-50 overflow-y-auto">
+        <!-- Backdrop -->
+        <div class="fixed inset-0 bg-black/80 backdrop-blur-sm transition-opacity" onclick="closeProjectModal()"></div>
+
+        <!-- Modal Content -->
+        <div class="relative min-h-screen flex items-center justify-center p-4">
+            <div class="relative bg-white rounded-2xl shadow-2xl max-w-6xl w-full max-h-[90vh] overflow-y-auto">
+                <!-- Close Button -->
+                <button onclick="closeProjectModal()"
+                        class="absolute top-4 right-4 z-10 w-10 h-10 bg-gray-900/80 hover:bg-gray-900 text-white rounded-full flex items-center justify-center transition">
+                    <i class="fas fa-times text-xl"></i>
+                </button>
+
+                <div class="grid md:grid-cols-2 gap-6 p-6">
+                    <!-- Left: Image Slider -->
+                    <div class="relative">
+                        <div class="relative bg-gray-100 rounded-xl overflow-hidden" style="min-height: 400px;">
+                            <div id="modal-slider-container" class="w-full h-full flex items-center justify-center">
+                                <!-- Images/Videos loaded here by JavaScript -->
+                            </div>
+
+                            <!-- Navigation Arrows -->
+                            <button id="slider-prev" onclick="prevSlide()"
+                                    class="absolute left-3 top-1/2 -translate-y-1/2 w-12 h-12 bg-black/60 hover:bg-black/80 text-white rounded-full flex items-center justify-center transition backdrop-blur-sm">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button id="slider-next" onclick="nextSlide()"
+                                    class="absolute right-3 top-1/2 -translate-y-1/2 w-12 h-12 bg-black/60 hover:bg-black/80 text-white rounded-full flex items-center justify-center transition backdrop-blur-sm">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+
+                            <!-- Slide Counter -->
+                            <div class="absolute bottom-3 left-1/2 -translate-x-1/2 bg-black/60 text-white px-4 py-2 rounded-full text-sm font-semibold backdrop-blur-sm">
+                                <span id="slide-counter">1 / 1</span>
+                            </div>
+                        </div>
+
+                        <!-- Navigation Hint -->
+                        <p class="text-center text-gray-500 text-xs mt-3">
+                            <i class="fas fa-keyboard mr-1"></i> Gunakan keyboard: ← → atau ESC
+                        </p>
+                    </div>
+
+                    <!-- Right: Project Details -->
+                    <div class="space-y-4">
+                        <div>
+                            <span id="modal-category" class="inline-block bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-xs font-semibold mb-2"></span>
+                            <h2 id="modal-title" class="text-3xl font-bold text-gray-900 mb-2"></h2>
+                            <p id="modal-description" class="text-gray-600 leading-relaxed"></p>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-4 py-4 border-y">
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-map-marker-alt text-orange-500"></i>
+                                <span id="modal-location" class="text-sm text-gray-700"></span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-calendar text-orange-500"></i>
+                                <span id="modal-year" class="text-sm text-gray-700"></span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-clock text-orange-500"></i>
+                                <span id="modal-duration" class="text-sm text-gray-700"></span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-dollar-sign text-orange-500"></i>
+                                <span id="modal-budget" class="text-sm font-semibold text-orange-600"></span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                                <i class="fas fa-star text-yellow-500 mr-2"></i>
+                                Features Utama
+                            </h3>
+                            <ul id="modal-features" class="space-y-2 text-gray-700">
+                                <!-- Features loaded by JavaScript -->
+                            </ul>
+                        </div>
+
+                        <div class="pt-4">
+                            <a href="contact.html"
+                               class="block w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white text-center py-3 rounded-lg font-semibold transition transform hover:scale-105 shadow-lg">
+                                <i class="fas fa-paper-plane mr-2"></i> Dapatkan Sebut Harga PERCUMA
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>

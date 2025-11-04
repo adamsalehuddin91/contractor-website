@@ -88,14 +88,14 @@ async function loadPortfolioPreview() {
                     </div>
                 ` : ''}
                 <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-6">
-                    <span class="text-orange-400 font-semibold text-sm mb-2">${project.category}</span>
+                    <span class="text-yellow-400 font-semibold text-sm mb-2">${project.category}</span>
                     <h3 class="text-xl font-bold text-white mb-2">${project.title}</h3>
                     <p class="text-gray-200 text-sm mb-4">${project.location} • ${project.year}</p>
-                    <a href="gallery.html" class="inline-block bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg font-semibold text-sm transition w-fit">
+                    <a href="gallery.html" class="inline-block bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-2 rounded-lg font-semibold text-sm transition w-fit">
                         Lihat Detail
                     </a>
                 </div>
-                <div class="absolute top-4 right-4 bg-orange-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                <div class="absolute top-4 right-4 bg-yellow-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
                     ${project.budget}
                 </div>
             </div>
@@ -146,13 +146,13 @@ async function loadGallery() {
                             </div>
                         ` : ''}
                         ${hasMultipleMedia ? `
-                            <div class="absolute top-3 right-3 bg-orange-500 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                            <div class="absolute top-3 right-3 bg-yellow-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
                                 <i class="fas fa-images mr-1"></i> ${images.length + videos.length}
                             </div>
                         ` : ''}
                     </div>
                     <div class="p-6">
-                        <span class="inline-block bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-xs font-semibold mb-3">
+                        <span class="inline-block bg-yellow-100 text-yellow-600 px-3 py-1 rounded-full text-xs font-semibold mb-3">
                             ${project.category}
                         </span>
                         <h3 class="text-xl font-bold text-gray-900 mb-2">${project.title}</h3>
@@ -160,19 +160,19 @@ async function loadGallery() {
 
                         <div class="space-y-2 mb-4">
                             <div class="flex items-center text-sm text-gray-600">
-                                <i class="fas fa-map-marker-alt text-orange-500 w-5"></i>
+                                <i class="fas fa-map-marker-alt text-yellow-600 w-5"></i>
                                 <span>${project.location}</span>
                             </div>
                             <div class="flex items-center text-sm text-gray-600">
-                                <i class="fas fa-calendar text-orange-500 w-5"></i>
+                                <i class="fas fa-calendar text-yellow-600 w-5"></i>
                                 <span>${project.year}</span>
                             </div>
                             <div class="flex items-center text-sm text-gray-600">
-                                <i class="fas fa-clock text-orange-500 w-5"></i>
+                                <i class="fas fa-clock text-yellow-600 w-5"></i>
                                 <span>${project.duration}</span>
                             </div>
-                            <div class="flex items-center text-sm font-semibold text-orange-600">
-                                <i class="fas fa-dollar-sign text-orange-500 w-5"></i>
+                            <div class="flex items-center text-sm font-semibold text-yellow-600">
+                                <i class="fas fa-dollar-sign text-yellow-600 w-5"></i>
                                 <span>${project.budget}</span>
                             </div>
                         </div>
@@ -191,7 +191,7 @@ async function loadGallery() {
 
                         ${hasMultipleMedia ? `
                             <button onclick='openProjectModal(${JSON.stringify(project).replace(/'/g, "&apos;")})'
-                                    class="mt-4 w-full bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 rounded-lg font-semibold text-sm transition">
+                                    class="mt-4 w-full bg-yellow-600 hover:bg-yellow-700 text-white py-2 px-4 rounded-lg font-semibold text-sm transition">
                                 <i class="fas fa-eye mr-2"></i> Lihat Semua Media
                             </button>
                         ` : ''}
@@ -217,11 +217,11 @@ async function loadGallery() {
 
                 // Update active button
                 filterButtons.forEach(btn => {
-                    btn.classList.remove('bg-orange-500', 'text-white');
+                    btn.classList.remove('bg-yellow-600', 'text-white');
                     btn.classList.add('bg-white', 'text-gray-700');
                 });
                 button.classList.remove('bg-white', 'text-gray-700');
-                button.classList.add('bg-orange-500', 'text-white');
+                button.classList.add('bg-yellow-600', 'text-white');
 
                 // Render filtered projects
                 renderProjects(filter);
@@ -232,7 +232,7 @@ async function loadGallery() {
         console.error('Error loading gallery:', error);
         galleryContainer.innerHTML = `
             <div class="col-span-full text-center py-12">
-                <i class="fas fa-exclamation-triangle text-orange-500 text-4xl mb-4"></i>
+                <i class="fas fa-exclamation-triangle text-yellow-600 text-4xl mb-4"></i>
                 <p class="text-gray-600">Maaf, portfolio tidak dapat dimuatkan buat masa ini.</p>
             </div>
         `;

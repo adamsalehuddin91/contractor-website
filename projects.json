@@ -2,168 +2,185 @@
   "projects": [
     {
       "id": 1,
-      "title": "Rumah Banglo Mewah 2 Tingkat - Cyberjaya",
-      "category": "Bina Rumah Baru",
-      "location": "Cyberjaya, Selangor",
-      "year": "2023",
-      "description": "Rumah banglo mewah 2 tingkat dengan 5 bilik tidur, swimming pool dan landscape cantik. Luas: 4,500 kaki persegi.",
+      "title": "Menaiktaraf Rumah Pangsa Blk 29-30 Taman Air Biru",
+      "category": "Renovasi & Ubahsuai",
+      "location": "Pasir Gudang, Johor",
+      "year": "2025",
+      "client": "Majlis Bandaraya Pasir Gudang",
+      "description": "Projek menaiktaraf rumah pangsa kerajaan meliputi kerja-kerja pembaikan struktur, cat baru, waterproofing dan upgrade kemudahan awam.",
       "images": [
-        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800",
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800",
-        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800"
-      ],
-      "videos": [
-        "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800"
       ],
       "features": [
-        "5 bilik tidur, 4 bilik air",
-        "Swimming pool & landscape",
-        "Smart home system",
-        "Double storey carpark"
+        "Pembaikan struktur bangunan",
+        "Waterproofing & cat luar",
+        "Upgrade tangga & koridor",
+        "Kerja civil & landscape"
       ],
-      "budget": "RM 850,000",
-      "duration": "12 bulan"
+      "budget": "RM 1,176,474",
+      "duration": "Dalam Progress (5%)",
+      "completion": "5%"
     },
     {
       "id": 2,
-      "title": "Renovasi Rumah Teres - Shah Alam",
-      "category": "Renovasi & Ubahsuai",
-      "location": "Shah Alam, Selangor",
-      "year": "2023",
-      "description": "Renovasi penuh rumah teres 2 tingkat termasuk extension dapur, bathroom upgrade dan cat baru.",
-      "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800",
-      "features": [
-        "Extension dapur & ruang makan",
-        "Upgrade 3 bilik air",
-        "Repaint seluruh rumah",
-        "Flooring tiles & laminate"
+      "title": "Menaiktaraf Klinik Desa Temiang",
+      "category": "Bangunan Komersial",
+      "location": "Muar, Johor",
+      "year": "2025",
+      "client": "Kementerian Kesihatan Malaysia (KKM)",
+      "description": "Projek upgrade klinik kesihatan kerajaan termasuk renovation bilik rawatan, sistem elektrik, air-cond dan kemudahan pesakit.",
+      "images": [
+        "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800",
+        "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=800"
       ],
-      "budget": "RM 120,000",
-      "duration": "3 bulan"
+      "features": [
+        "Renovation bilik rawatan",
+        "Upgrade sistem M&E",
+        "Air-conditioning system",
+        "Flooring & ceiling works"
+      ],
+      "budget": "RM 391,968",
+      "duration": "Siap 100%",
+      "completion": "100%"
     },
     {
       "id": 3,
-      "title": "Kedai Pejabat 3 Tingkat - Bangi",
+      "title": "Eco Ceres Renewable Fuels Production Facility",
       "category": "Bangunan Komersial",
-      "location": "Bangi, Selangor",
-      "year": "2022",
-      "description": "Bangunan kedai pejabat 3 tingkat untuk kegunaan komersial dengan parking basement.",
+      "location": "Johor",
+      "year": "2024",
+      "client": "Zhonghe Huaxing (M) Sdn Bhd",
+      "description": "Pembinaan kemudahan pengeluaran bahan bakar terbarukan termasuk kilang, pejabat dan infrastruktur sokongan.",
       "images": [
-        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800",
-        "https://images.unsplash.com/photo-1577495917080-e8e8e5e0e37b?w=800",
-        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800"
+        "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800",
+        "https://images.unsplash.com/photo-1565610222536-ef4cf7d6d7cc?w=800",
+        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800"
       ],
       "features": [
-        "3 tingkat + basement parking",
-        "Lif penumpang & barang",
-        "Central air-conditioning",
-        "Security system CCTV"
+        "Kilang pengeluaran fuel",
+        "Pejabat & store room",
+        "Civil & M&E works",
+        "Safety & environmental compliance"
       ],
-      "budget": "RM 1,200,000",
-      "duration": "18 bulan"
+      "budget": "RM 1,650,000",
+      "duration": "Siap 100%",
+      "completion": "100%"
     },
     {
       "id": 4,
-      "title": "Rumah Kampung Moden - Nilai",
-      "category": "Bina Rumah Baru",
-      "location": "Nilai, Negeri Sembilan",
-      "year": "2023",
-      "description": "Rumah kampung konsep moden dengan design terkini tapi mengekalkan sentuhan tradisional.",
-      "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800",
-      "features": [
-        "4 bilik tidur, 3 bilik air",
-        "Konsep kampung moden",
-        "Taman depan & belakang",
-        "Carport 2 kereta"
+      "title": "Pengubahsuaian Pejabat Air Melaka Berhad (Wisma Air)",
+      "category": "Renovasi & Ubahsuai",
+      "location": "Melaka",
+      "year": "2021",
+      "client": "Syarikat Air Melaka Berhad (SAMB)",
+      "description": "Projek besar pengubahsuaian pejabat korporat meliputi renovation dalaman, upgrade sistem M&E dan infrastructure.",
+      "images": [
+        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
+        "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800",
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800"
       ],
-      "budget": "RM 420,000",
-      "duration": "8 bulan"
+      "features": [
+        "Renovation 5 tingkat pejabat",
+        "Upgrade sistem M&E lengkap",
+        "Flooring, ceiling & partitioning",
+        "Furniture & fitting works"
+      ],
+      "budget": "RM 2,305,000",
+      "duration": "Siap 100%",
+      "completion": "100%"
     },
     {
       "id": 5,
-      "title": "Extension & Renovasi - Putrajaya",
-      "category": "Renovasi & Ubahsuai",
-      "location": "Putrajaya",
-      "year": "2022",
-      "description": "Kerja extension bilik tambahan dan renovasi dapur untuk rumah teres 1 tingkat.",
-      "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800",
-      "features": [
-        "Extension 2 bilik tidur",
-        "Renovasi dapur wet & dry",
-        "Tambah 1 bilik air",
-        "Wiring & plumbing baru"
+      "title": "Chalet & Pondok Gunung Ledang",
+      "category": "Bina Rumah Baru",
+      "location": "Gunung Ledang, Johor",
+      "year": "2020",
+      "client": "Johor National Park Corporation",
+      "description": "Pembinaan chalet, pondok peranginan dan kemudahan awam di Taman Negara Johor Gunung Ledang untuk pelancong.",
+      "images": [
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
+        "https://images.unsplash.com/photo-1542718610-a1d656d1884c?w=800"
       ],
-      "budget": "RM 95,000",
-      "duration": "2.5 bulan"
+      "features": [
+        "Chalet & pondok peranginan",
+        "Kemudahan awam & surau",
+        "Landscaping & walkway",
+        "Eco-friendly design"
+      ],
+      "budget": "RM 2,284,900",
+      "duration": "Siap 100%",
+      "completion": "100%"
     },
     {
       "id": 6,
-      "title": "Pembinaan Jalan & Longkang - Semenyih",
-      "category": "Infrastruktur & Civil",
-      "location": "Semenyih, Selangor",
-      "year": "2023",
-      "description": "Projek pembinaan jalan tar dan sistem perparitan untuk kawasan perumahan baru.",
-      "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800",
-      "features": [
-        "Jalan tar 2 lorong (800m)",
-        "Sistem longkang concrete",
-        "Street lighting system",
-        "Landscaping tepi jalan"
+      "title": "Rumah Kakitangan FELDA Lenga",
+      "category": "Bina Rumah Baru",
+      "location": "FELDA Lenga, Johor",
+      "year": "2018",
+      "client": "FELDA",
+      "description": "Pembinaan kuarters pegawai FELDA termasuk banglo dan rumah teres 1-2 tingkat lengkap dengan infrastruktur.",
+      "images": [
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800"
       ],
-      "budget": "RM 680,000",
-      "duration": "6 bulan"
+      "features": [
+        "Banglo & teres 1-2 tingkat",
+        "Kuarters pegawai FELDA",
+        "Complete M&E installation",
+        "Landscaping & road works"
+      ],
+      "budget": "RM 1,714,000",
+      "duration": "Siap 100%",
+      "completion": "100%"
     },
     {
       "id": 7,
-      "title": "Rumah Semi-D Mewah - Kajang",
-      "category": "Bina Rumah Baru",
-      "location": "Kajang, Selangor",
-      "year": "2022",
-      "description": "Rumah semi-detached 2 tingkat dengan design moden minimalis dan full smart home.",
-      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "features": [
-        "5 bilik tidur + study room",
-        "Full smart home automation",
-        "Modern minimalist design",
-        "Premium kitchen cabinet"
+      "title": "Wad Psikiatri Hospital Pakar Sultanah Fatimah",
+      "category": "Bangunan Komersial",
+      "location": "Muar, Johor",
+      "year": "2018",
+      "client": "Hospital Pakar Sultanah Fatimah (HPSF)",
+      "description": "Pembinaan wad psikiatri hospital kerajaan dengan kemudahan rawatan lengkap mengikut standard KKM.",
+      "images": [
+        "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800",
+        "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=800",
+        "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=800"
       ],
-      "budget": "RM 720,000",
-      "duration": "10 bulan"
+      "features": [
+        "Wad rawatan psikiatri",
+        "Bilik rawatan & consultation",
+        "Medical equipment installation",
+        "Safety & security features"
+      ],
+      "budget": "RM 2,434,583",
+      "duration": "Siap 100%",
+      "completion": "100%"
     },
     {
       "id": 8,
-      "title": "Gudang Perindustrian - Nilai",
-      "category": "Bangunan Komersial",
-      "location": "Nilai, Negeri Sembilan",
-      "year": "2023",
-      "description": "Gudang perindustrian bersaiz besar dengan office space dan loading bay.",
-      "image": "https://images.unsplash.com/photo-1565610222536-ef4cf7d6d7cc?w=800",
-      "features": [
-        "Luas: 15,000 kaki persegi",
-        "Loading bay 3 unit",
-        "2-storey office space",
-        "High ceiling (25 feet)"
+      "title": "Dewan Serbaguna Taman Rekreasi Kampung Empang Batu",
+      "category": "Infrastruktur & Civil",
+      "location": "Ayer Hitam, Johor",
+      "year": "2018",
+      "client": "Majlis Perbandaran Ayer Hitam Gambar (MPAG)",
+      "description": "Pembinaan dewan serbaguna dan taman rekreasi lengkap dengan infrastruktur jalan, longkang dan landscape.",
+      "images": [
+        "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800",
+        "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
       ],
-      "budget": "RM 950,000",
-      "duration": "12 bulan"
-    },
-    {
-      "id": 9,
-      "title": "Renovasi Apartment - Cheras",
-      "category": "Renovasi & Ubahsuai",
-      "location": "Cheras, Kuala Lumpur",
-      "year": "2023",
-      "description": "Renovasi penuh apartment 3 bilik untuk disewa, termasuk kabinet custom dan aircond.",
-      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
       "features": [
-        "Full kabinet dapur custom",
-        "Wiring & plumbing baru",
-        "3 unit air-conditioner",
-        "Flooring & painting"
+        "Dewan serbaguna (multipurpose hall)",
+        "Jalan & drainage system",
+        "Landscaping & taman rekreasi",
+        "Street lighting & amenities"
       ],
-      "budget": "RM 45,000",
-      "duration": "1.5 bulan"
+      "budget": "RM 1,479,654",
+      "duration": "Siap 100%",
+      "completion": "100%"
     }
   ]
 }

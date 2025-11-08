@@ -26,3 +26,14 @@ dist/
 
 # OS
 Thumbs.db
+
+# Large files & Documentation (exclude from GitHub)
+*.exe
+*.msi
+*.dmg
+*.zip
+*.pdf
+
+# Exclude all .md files except README.md
+*.md
+!README.md
